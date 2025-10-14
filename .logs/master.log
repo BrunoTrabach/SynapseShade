@@ -1,0 +1,15 @@
+2025-10-14 20:59:33 [INFO] === SynapseShade MASTER START ===
+2025-10-14 20:59:33 [INFO] Pasta parece montada com noexec. Criando cópia temporária em $HOME e executando a partir dela...
+2025-10-14 20:59:33 [INFO] Executando cópia temporária: /data/data/com.termux/files/home/SynapseShadeTemp/init-alpha.sh
+2025-10-14 20:59:33 [INFO] === SynapseShade MASTER START ===
+2025-10-14 20:59:34 [INFO] Pasta parece montada com noexec. Criando cópia temporária em $HOME e executando a partir dela...
+2025-10-14 21:41:11 [INFO] === SynapseShade MASTER START ===
+2025-10-14 21:41:11 [INFO] Todas dependências presentes.
+2025-10-14 21:41:11 [INFO] Autorização concedida.
+2025-10-14 21:41:11 [INFO] Criando/verificando estrutura em: /storage/emulated/0/Documents/AlphaOne/SynapseShade
+2025-10-14 21:41:11 [INFO] Estrutura inicial criada (React Native + Android skeleton).
+2025-10-14 21:41:12 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-14 21:41:12 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
+2025-10-14 21:41:12 [INFO] Hashes gerados.
+2025-10-14 21:41:12 [INFO] Inicializando repositório Git local (se necessário)...
+2025-10-14 21:41:13 [INFO] safe.directory adicionado: /storage/emulated/0/Documents/AlphaOne/SynapseShade

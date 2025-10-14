@@ -1,0 +1,79 @@
+# # .github/workflows/android-build.yml
+# Acionado pelo script init-alpha.sh via API (workflow_dispatch)
+
+name: Android Build & Release
+
+# Disparado por API (do seu script Termux) ou manualmente no GitHub
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Motivo do build (ex: "Automated from Termux")'
+        required: false
+        default: 'Automated by SynapseShade Termux'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Define o nome do projeto (útil para o nome do APK)
+    env:
+      PROJECT_NAME: SynapseShade
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: 'gradle'
+
+    # --- Configurações de Assinatura (Opcional) ---
+    # Necessário se o APK for para Play Store ou precisar ser assinado.
+    # Exige que você defina os Secrets no seu repositório GitHub:
+    # KEYSTORE_BASE64, KEY_ALIAS, KEY_PASSWORD, STORE_PASSWORD
+    - name: Setup Keystore (Se Secret KEYSTORE_BASE64 existir)
+      id: keystore_setup
+      # Verifica se o Secret KEYSTORE_BASE64 está definido
+      if: github.event_name == 'workflow_dispatch' && secrets.KEYSTORE_BASE64 != ''
+      run: |
+        # Define a variável de ambiente com o caminho do keystore
+        echo "STORE_FILE=$PWD/android/app/upload-keystore.jks" >> $GITHUB_ENV
+        # Decodifica o keystore base64 do Secret e salva no caminho
+        echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > $STORE_FILE
+        echo "Keystore file created."
+      env:
+        KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+
+    - name: Grant Execute Permission to Gradlew
+      run: chmod +x android/gradlew
+
+    # --- Build do Release ---
+    - name: Build Android Release APK
+      run: |
+        cd android
+        # Tenta usar as configurações de assinatura via Project Properties do Gradle
+        if [ -f "app/upload-keystore.jks" ]; then
+          echo "Starting signed release build..."
+          ./gradlew assembleRelease \
+            -Pandroid.injected.signing.store.file=$STORE_FILE \
+            -Pandroid.injected.signing.key.alias="${{ secrets.KEY_ALIAS }}" \
+            -Pandroid.injected.signing.store.password="${{ secrets.STORE_PASSWORD }}" \
+            -Pandroid.injected.signing.key.password="${{ secrets.KEY_PASSWORD }}"
+        else
+          echo "Starting unsigned release build (signing secrets not found)..."
+          ./gradlew assembleRelease
+        fi env: STORE_FILE: ${{ env.STORE_FILE }} # 
+        Caminho do keystore definido acima
+    - name: Find and Upload APK Artifact uses: 
+      actions/upload-artifact@v4 with:
+        name: apk-release
+        # Procura o APK de release no caminho padrão 
+        # do Gradle
+        path: 
+        android/app/build/outputs/apk/release/*.apk
+        # Define a retenção do artefato para download 
+        # pelo seu script
+        retention-days: 1

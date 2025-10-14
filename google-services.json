@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215590156719",
+    "project_id": "synapseshade-kiosk",
+    "storage_bucket": "synapseshade-kiosk.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215590156719:android:ad3f7050199797a060175a",
+        "android_client_info": {
+          "package_name": "com.alphaone.synapseshade"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiGzm8QlCgnGYB9ofIII2hMENmfc_ALkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
