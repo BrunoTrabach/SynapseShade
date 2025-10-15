@@ -32,3 +32,40 @@
 2025-10-15 13:56:51 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
 2025-10-15 13:56:54 [INFO] Hashes gerados.
 2025-10-15 13:56:54 [INFO] Inicializando repositório Git local (se necessário)...
+2025-10-15 13:56:55 [INFO] Tentando push para GitHub: BrunoTrabach/SynapseShade (HTTPS token auth)
+2025-10-15 14:00:31 [INFO] Push para GitHub concluído.
+2025-10-15 14:00:31 [INFO] ENCRYPT_PASSWORD não definido — pulando backup criptografado
+2025-10-15 14:00:31 [INFO] Iniciando processo de build (tentativa local)...
+2025-10-15 14:00:31 [INFO] Gradle não disponível ou build falhou — criando APK placeholders...
+2025-10-15 14:00:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-universal-placeholder-1760536831.apk
+2025-10-15 14:00:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-arm64-v8a-placeholder-1760536832.apk
+2025-10-15 14:00:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-armeabi-v7a-placeholder-1760536832.apk
+2025-10-15 14:00:32 [INFO] Disparando workflow android-build.yml em BrunoTrabach/SynapseShade
+2025-10-15 14:00:33 [INFO] Polling pelo run (aguardando conclusão)...
+2025-10-15 14:34:24 [WARN] Nenhum run_id encontrado — CI remoto pode ter falhado ou ter timeout.
+2025-10-15 14:34:24 [INFO] Criando release v20251015113424
+2025-10-15 14:34:25 [WARN] Falha ao criar release (resposta: {
+  "message": "Bad credentials",
+  "documentation_url": "https://docs.github.com/rest",
+  "status": "401"
+})
+2025-10-15 14:34:25 [INFO] GDRIVE_REMOTE não definido — pulando rclone sync
+2025-10-15 14:34:25 [INFO] Wrapper criado em: /data/data/com.termux/files/home/RunSynapseShade.sh
+2025-10-15 14:34:25 [INFO] Tentando sincronizar para OTG/disc externo com permissão escrita...
+2025-10-15 14:34:25 [WARN] Nenhum OTG detectado com permissão de escrita.
+2025-10-15 14:34:26 [WARN] Sincronização OTG não realizada
+2025-10-15 14:34:26 [INFO] === SynapseShade MASTER FINISHED ===
+2025-10-15 14:34:26 [INFO] APK final: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-armeabi-v7a-placeholder-1760536832.apk
+2025-10-15 16:15:47 [INFO] === SynapseShade MASTER START ===
+2025-10-15 16:15:47 [WARN] Dependências ausentes: yarn
+2025-10-15 16:15:47 [INFO] Tentando instalar via pkg (Termux): yarn
+2025-10-15 16:19:23 [INFO] === SynapseShade MASTER START ===
+2025-10-15 16:19:23 [INFO] Todas dependências presentes.
+2025-10-15 16:19:23 [INFO] EXEC_PASS calculado automaticamente (modo silent).
+2025-10-15 16:19:23 [INFO] Autorização concedida.
+2025-10-15 16:19:24 [INFO] Criando/verificando estrutura em: /storage/emulated/0/Documents/AlphaOne/SynapseShade
+2025-10-15 16:19:24 [INFO] Estrutura inicial criada (React Native CLI skeleton + Android flavors + web placeholder).
+2025-10-15 16:19:24 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-15 16:19:24 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
+2025-10-15 16:19:29 [INFO] Hashes gerados.
+2025-10-15 16:19:29 [INFO] Inicializando repositório Git e configurando credenciais (se aplicável)...
