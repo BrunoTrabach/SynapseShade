@@ -137,3 +137,21 @@ openjdk-17-jdk
 2025-10-15 21:32:45 [INFO] Hashes gerados.
 2025-10-15 21:32:45 [INFO] Workflow GitHub criado: android-web-build.yml.
 2025-10-15 21:32:45 [INFO] Inicializando Git e configurando credenciais...
+2025-10-15 21:32:46 [INFO] Tentando push para GitHub: BrunoTrabach/SynapseShade
+2025-10-15 21:33:33 [WARN] Push para GitHub falhou.
+2025-10-15 21:33:33 [WARN] GDRIVE_REMOTE ou ENCRYPT_PASSWORD ausentes - pulando backup Rclone.
+2025-10-15 21:33:33 [WARN] Nenhum OTG detectado com permissão de escrita - pulando sincronização OTG.
+2025-10-15 21:33:33 [INFO] Wrapper criado em: /data/data/com.termux/files/home/RunSynapseShadeShade.sh
+2025-10-15 21:33:33 [INFO] === SynapseShade MASTER v2.2 FINISHED ===
+2025-10-15 21:36:40 [INFO] === SynapseShade MASTER v2.2 START (Push Focus) ===
+2025-10-15 21:36:40 [INFO] EXEC_PASS calculado (silent).
+2025-10-15 21:36:40 [INFO] Autorização concedida.
+2025-10-15 21:36:40 [INFO] Garantindo estrutura básica e permissões do gradlew...
+2025-10-15 21:36:41 [INFO] Verificação de dependências concluída. Falhas no build local serão ignoradas.
+2025-10-15 21:36:41 [INFO] google-services.json copiado.
+2025-10-15 21:36:41 [INFO] Pulando BUILD REAL local (devido a problemas de NDK/SDK no Termux).
+2025-10-15 21:36:41 [INFO] O build será executado no GitHub Actions após o push.
+2025-10-15 21:36:41 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
+2025-10-15 21:36:47 [INFO] Hashes gerados.
+2025-10-15 21:36:47 [INFO] Workflow GitHub criado: android-web-build.yml.
+2025-10-15 21:36:47 [INFO] Inicializando Git e configurando credenciais...
