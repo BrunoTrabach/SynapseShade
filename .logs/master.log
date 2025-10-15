@@ -69,3 +69,54 @@
 2025-10-15 16:19:24 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
 2025-10-15 16:19:29 [INFO] Hashes gerados.
 2025-10-15 16:19:29 [INFO] Inicializando repositório Git e configurando credenciais (se aplicável)...
+2025-10-15 16:19:30 [WARN] GITHUB_TOKEN ou GITHUB_REPO ausentes — pulando push.
+2025-10-15 16:19:30 [WARN] GITHUB_REPO não definido — workflow será criado localmente mas não disparado automaticamente.
+2025-10-15 16:19:31 [INFO] Workflow GitHub criado: .github/workflows/android-web-build.yml
+2025-10-15 16:19:31 [INFO] ENCRYPT_PASSWORD não definido — pulando backup criptografado
+2025-10-15 16:19:31 [INFO] Iniciando build local (se gradle detectado) ou gerando placeholders
+2025-10-15 16:19:31 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-mobile-universal-placeholder-1760545171.apk
+2025-10-15 16:19:31 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-mobile-arm64-v8a-placeholder-1760545171.apk
+2025-10-15 16:19:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-mobile-armeabi-v7a-placeholder-1760545171.apk
+2025-10-15 16:19:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-tv-universal-placeholder-1760545172.apk
+2025-10-15 16:19:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-tv-arm64-v8a-placeholder-1760545172.apk
+2025-10-15 16:19:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-tv-armeabi-v7a-placeholder-1760545172.apk
+2025-10-15 16:19:32 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-admin-universal-placeholder-1760545172.apk
+2025-10-15 16:19:33 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-admin-arm64-v8a-placeholder-1760545172.apk
+2025-10-15 16:19:33 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-admin-armeabi-v7a-placeholder-1760545173.apk
+2025-10-15 16:19:33 [WARN] GITHUB creds ausentes — pulando CI remoto
+2025-10-15 16:19:33 [WARN] GITHUB creds ausentes — pulando release
+2025-10-15 16:19:33 [INFO] GDRIVE_REMOTE não definido — pulando rclone sync
+2025-10-15 16:19:33 [INFO] Wrapper criado em: /data/data/com.termux/files/home/RunSynapseShade.sh
+2025-10-15 16:19:33 [INFO] Tentando sincronizar para OTG/dispositivo montado com permissão escrita...
+2025-10-15 16:19:34 [WARN] Nenhum OTG detectado com permissão de escrita.
+2025-10-15 16:19:34 [WARN] Sincronização OTG não realizada
+2025-10-15 16:19:34 [INFO] === SynapseShade MASTER FINISHED ===
+2025-10-15 16:19:34 [INFO] APK final: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-armeabi-v7a-placeholder-1760536832.apk
+2025-10-15 20:06:50 [INFO] === SynapseShade MASTER v2.0 START (Real Build) ===
+2025-10-15 20:06:50 [INFO] EXEC_PASS calculado (silent).
+2025-10-15 20:06:50 [INFO] Autorização concedida.
+2025-10-15 20:06:50 [WARN] Dependências ausentes: nodejs-lts
+openjdk-17-jdk
+2025-10-15 20:06:50 [INFO] Tentando instalar via pkg (Termux): nodejs-lts
+openjdk-17-jdk
+2025-10-15 20:06:57 [WARN] Instalação automática parcial; instale manualmente: nodejs-lts
+openjdk-17-jdk
+2025-10-15 20:06:58 [INFO] Instalando Firebase CLI globalmente via npm...
+2025-10-15 20:10:26 [WARN] Falha ao instalar firebase-tools. Tente 'npm install -g firebase-tools --unsafe-perm'
+2025-10-15 20:10:26 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-15 20:10:26 [INFO] Iniciando processo de BUILD REAL (via gradlew)...
+2025-10-15 20:10:27 [WARN] gradlew não encontrado. Pulando build real e voltando a placeholders.
+2025-10-15 20:10:27 [WARN] Build real falhou. O próximo push para o GitHub deve gerar o APK.
+2025-10-15 21:03:57 [INFO] === SynapseShade MASTER v2.2 START (Push Focus) ===
+2025-10-15 21:03:57 [INFO] EXEC_PASS calculado (silent).
+2025-10-15 21:03:57 [INFO] Autorização concedida.
+2025-10-15 21:03:57 [INFO] Garantindo estrutura básica e permissões do gradlew...
+2025-10-15 21:03:57 [WARN] gradlew não encontrado. Criando placeholder. Será corrigido após o 'npm install'.
+2025-10-15 21:03:58 [INFO] Verificação de dependências concluída. Falhas no build local serão ignoradas.
+2025-10-15 21:03:58 [INFO] google-services.json copiado.
+2025-10-15 21:03:58 [INFO] Pulando BUILD REAL local (devido a problemas de NDK/SDK no Termux).
+2025-10-15 21:03:58 [INFO] O build será executado no GitHub Actions após o push.
+2025-10-15 21:03:58 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
+2025-10-15 21:04:02 [INFO] Hashes gerados.
+2025-10-15 21:04:02 [INFO] Workflow GitHub criado: android-web-build.yml.
+2025-10-15 21:04:03 [INFO] Inicializando Git e configurando credenciais...

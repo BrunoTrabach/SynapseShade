@@ -1,0 +1,28 @@
+name: Android & Web Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+      - name: Grant gradlew
+        run: chmod +x android/gradlew
+      - name: Build release APKs (all flavors)
+        run: |
+          cd android
+          ./gradlew clean assembleRelease --no-daemon
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: synapseshade-apks
+          path: android/app/build/outputs/apk/release/*.apk
