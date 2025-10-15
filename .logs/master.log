@@ -13,3 +13,22 @@
 2025-10-14 21:41:12 [INFO] Hashes gerados.
 2025-10-14 21:41:12 [INFO] Inicializando repositório Git local (se necessário)...
 2025-10-14 21:41:13 [INFO] safe.directory adicionado: /storage/emulated/0/Documents/AlphaOne/SynapseShade
+2025-10-14 21:41:14 [INFO] Tentando push para GitHub: SeuUsuario/SeuRepositorio (HTTPS token auth)
+2025-10-14 21:41:14 [WARN] Push para GitHub falhou (verifique token/perm)
+2025-10-14 21:41:14 [INFO] ENCRYPT_PASSWORD não definido — pulando backup criptografado
+2025-10-14 21:41:14 [INFO] Iniciando processo de build (tentativa local)...
+2025-10-14 21:41:15 [INFO] Gradle não disponível ou build falhou — criando APK placeholders...
+2025-10-14 21:41:15 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-universal-placeholder-1760478075.apk
+2025-10-14 21:41:15 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-arm64-v8a-placeholder-1760478075.apk
+2025-10-14 21:41:15 [INFO] APK placeholder criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/builds/SynapseShade-armeabi-v7a-placeholder-1760478075.apk
+2025-10-14 21:41:15 [INFO] Disparando workflow android-build.yml em SeuUsuario/SeuRepositorio
+2025-10-14 21:41:16 [INFO] Polling pelo run (aguardando conclusão)...
+2025-10-15 13:56:50 [INFO] === SynapseShade MASTER START ===
+2025-10-15 13:56:50 [INFO] Todas dependências presentes.
+2025-10-15 13:56:50 [INFO] Autorização concedida.
+2025-10-15 13:56:50 [INFO] Criando/verificando estrutura em: /storage/emulated/0/Documents/AlphaOne/SynapseShade
+2025-10-15 13:56:51 [INFO] Estrutura inicial criada (React Native + Android skeleton).
+2025-10-15 13:56:51 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-15 13:56:51 [INFO] Gerando hashes SHA-256 em /storage/emulated/0/Documents/AlphaOne/SynapseShade/hashes.txt...
+2025-10-15 13:56:54 [INFO] Hashes gerados.
+2025-10-15 13:56:54 [INFO] Inicializando repositório Git local (se necessário)...
