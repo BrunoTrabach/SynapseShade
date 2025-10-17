@@ -191,3 +191,9 @@ openjdk-17-jdk
 2025-10-17 13:17:34 [INFO] Hashes gerados.
 2025-10-17 13:17:34 [INFO] Workflow GitHub criado e CORRIGIDO: android-web-build.yml.
 2025-10-17 13:17:34 [INFO] Inicializando Git e configurando credenciais...
+2025-10-17 13:17:35 [INFO] Tentando push para GitHub: BrunoTrabach/SynapseShade
+2025-10-17 13:17:38 [INFO] Push para GitHub concluído.
+2025-10-17 13:17:38 [INFO] Realizando backup Rclone. (Lógica de rclone aqui)
+2025-10-17 13:17:38 [WARN] Nenhum OTG detectado com permissão de escrita - pulando sincronização OTG.
+2025-10-17 13:17:38 [INFO] Wrapper criado em: /data/data/com.termux/files/home/RunSynapseShadeShade.sh
+2025-10-17 13:17:38 [INFO] === SynapseShade MASTER v2.4 FINISHED ===

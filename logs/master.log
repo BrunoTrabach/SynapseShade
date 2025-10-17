@@ -1,0 +1,15 @@
+2025-10-17 13:44:13 [INFO] === SynapseShade MASTER v3.2 START ===
+2025-10-17 13:44:13 [INFO] EXEC_PASS calculado automaticamente (modo silent).
+2025-10-17 13:44:13 [INFO] Autorização concedida.
+2025-10-17 13:44:50 [WARN] gh CLI não encontrado — usarei GitHub API via curl
+2025-10-17 13:44:50 [INFO] Verificação de dependências e estrutura concluída.
+2025-10-17 13:44:51 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-17 13:44:57 [INFO] Mudanças detectadas comparando hashes.
+2025-10-17 13:44:57 [INFO] Mudanças encontradas — proceder com backup -> push -> build
+2025-10-17 13:44:57 [INFO] Criando backup local completo...
+2025-10-17 13:44:58 [WARN] tar falhou
+2025-10-17 13:44:58 [INFO] Backup criptografado criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/backups/synapseshade_backup_20251017_104457.tar.gz.enc
+2025-10-17 13:44:58 [INFO] Sincronizando backups com gdrive-synapseshade:SynapseShade-backups ...
+2025-10-17 13:46:46 [INFO] Upload de backups concluído.
+2025-10-17 13:46:46 [INFO] Workflow criado/atualizado em /storage/emulated/0/Documents/AlphaOne/SynapseShade/.github/workflows/android-web-build.yml
+2025-10-17 13:46:46 [INFO] Preparando Git...

@@ -1,4 +1,4 @@
-name: Android & Web Build
+name: Android + Web CI
 
 on:
   push:
@@ -18,7 +18,6 @@ jobs:
       - name: Grant gradlew
         run: chmod +x android/gradlew
       - name: Build release APKs
-        # O build deve produzir o app-release-unsigned.apk ou app-release.apk
         run: |
           cd android
           ./gradlew clean assembleRelease --no-daemon
@@ -26,5 +25,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: synapseshade-apks
-          # Busca por qualquer APK de release gerado.
+          # CORREÇÃO DO PROBLEMA DE ARTEFATO: Usando ** para buscar em subpastas
           path: android/app/build/outputs/apk/release/**/*.apk
