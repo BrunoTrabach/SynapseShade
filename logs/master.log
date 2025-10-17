@@ -116,3 +116,33 @@
 2025-10-17 17:18:40 [INFO] Upload de backups concluído.
 2025-10-17 17:18:40 [INFO] Workflow criado/atualizado em /storage/emulated/0/Documents/AlphaOne/SynapseShade/.github/workflows/android-web-build.yml
 2025-10-17 17:18:41 [INFO] Preparando Git...
+2025-10-17 17:18:42 [INFO] Pushing to GitHub...
+2025-10-17 17:18:44 [INFO] Push concluído.
+2025-10-17 17:18:44 [WARN] Email não configurado ou falhou — tentando fallback GitHub Issue / Firebase / Webhook.
+2025-10-17 17:18:44 [INFO] Criando GitHub Issue: SynapseShade Alert: info
+2025-10-17 17:18:46 [INFO] Dispatching workflow android-web-build.yml ...
+2025-10-17 17:18:47 [INFO] Polling run status...
+2025-10-17 17:43:47 [WARN] Timeout ao esperar pelo workflow. Verifique o GitHub Actions manualmente.
+2025-10-17 17:43:47 [WARN] Email não configurado ou falhou — tentando fallback GitHub Issue / Firebase / Webhook.
+2025-10-17 17:43:47 [INFO] Criando GitHub Issue: SynapseShade Alert: failure
+2025-10-17 17:43:49 [WARN] Dispatch/poll falhou
+2025-10-17 17:43:49 [INFO] Iniciando sincronização OTG...
+2025-10-17 17:43:50 [WARN] Nenhum OTG detectado com permissão de escrita.
+2025-10-17 17:43:50 [WARN] sync_to_otg não realizado
+2025-10-17 17:43:50 [INFO] Wrapper criado em /data/data/com.termux/files/home/RunSynapseShade.sh
+2025-10-17 17:43:50 [INFO] === SynapseShade MASTER v3.2 FINISHED ===
+2025-10-17 18:24:27 [INFO] === SynapseShade MASTER v3.2 START ===
+2025-10-17 18:24:27 [INFO] EXEC_PASS calculado automaticamente (modo silent).
+2025-10-17 18:24:27 [INFO] Autorização concedida.
+2025-10-17 18:24:32 [WARN] gh CLI não encontrado — usarei GitHub API via curl
+2025-10-17 18:24:33 [INFO] Verificação de dependências e estrutura concluída.
+2025-10-17 18:24:33 [INFO] google-services.json copiado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/google-services.json -> /storage/emulated/0/Documents/AlphaOne/SynapseShade/android/app/
+2025-10-17 18:24:41 [INFO] Mudanças detectadas comparando hashes.
+2025-10-17 18:24:41 [INFO] Mudanças encontradas — proceder com backup -> push -> build
+2025-10-17 18:24:41 [INFO] Criando backup local completo...
+2025-10-17 18:24:42 [WARN] tar falhou
+2025-10-17 18:24:42 [INFO] Backup criptografado criado: /storage/emulated/0/Documents/AlphaOne/SynapseShade/backups/synapseshade_backup_20251017_152441.tar.gz.enc
+2025-10-17 18:24:42 [INFO] Sincronizando backups com gdrive-synapseshade:SynapseShade-backups ...
+2025-10-17 18:24:48 [INFO] Upload de backups concluído.
+2025-10-17 18:24:48 [INFO] Workflow criado/atualizado em /storage/emulated/0/Documents/AlphaOne/SynapseShade/.github/workflows/android-web-build.yml
+2025-10-17 18:24:48 [INFO] Preparando Git...
